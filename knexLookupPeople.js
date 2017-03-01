@@ -28,5 +28,9 @@ knex.select().table('famous_people')
   });
 });
 
+// knex.select().from('famous_people')
+//   .where({last_name : input})
+//   .then();
+
 
 
